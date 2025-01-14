@@ -423,7 +423,7 @@
             "actions": [
                 {
                     "type": "origins:area_of_effect",
-                    "radius": 5,
+                    "radius": 8,
                     "bientity_condition": {
                         "type": "origins:target_condition",
                         "condition": {
