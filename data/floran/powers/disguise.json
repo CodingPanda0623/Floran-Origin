@@ -124,7 +124,7 @@
                     },
                     {
                         "type": "origins:execute_command",
-                        "command": "scale set pehkui:width 1.667"
+                        "command": "scale set pehkui:width 1.6665"
                     },
                     {
                         "type": "origins:execute_command",
