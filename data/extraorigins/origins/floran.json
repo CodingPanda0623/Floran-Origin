@@ -18,7 +18,8 @@
         "floran:heat_vulnerability",
         "floran:vegetarian",
         "floran:overtime",
-        "floran:leafy_skin"
+        "floran:leafy_skin",
+        "floran:forest_spawn"
     ],
     "icon": "minecraft:oak_sapling",
     "order": 1,
