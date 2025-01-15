@@ -15,7 +15,7 @@
     },
     "reset_scale": {
         "type": "origins:action_over_time",
-        "interval": 1,
+        "interval": 10,
         "condition": {
             "type": "origins:and",
             "conditions": [
