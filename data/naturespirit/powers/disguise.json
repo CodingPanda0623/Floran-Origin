@@ -53,17 +53,8 @@
             "power": "*:*_toggle"
         },
         "entity_action": {
-            "type": "origins:and",
-                "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "command": "execute at @s run kill @e[tag=Disguise,sort=nearest,limit=3]"
-                },
-                {
-                    "type": "origins:execute_command",
-                    "command": "function naturespirit:foliage_disguise"
-                }
-            ]
+            "type": "origins:execute_command",
+            "command": "function naturespirit:foliage_disguise"
         },
         "interval": 1
     },
@@ -133,17 +124,8 @@
                 ]
             },
             "else_action": {
-                "type": "origins:and",
-                "actions": [
-                    {
-                        "type": "origins:execute_command",
-                        "command": "scale reset pehkui:visibility"
-                    },
-                    {
-                        "type": "origins:execute_command",
-                        "command": "execute at @s run kill @e[tag=Disguise,sort=nearest,limit=3]"
-                    }
-                ]
+                "type": "origins:execute_command",
+                "command": "scale reset pehkui:visibility"
             }
         }
     }
